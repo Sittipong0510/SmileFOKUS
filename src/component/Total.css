@@ -1,0 +1,58 @@
+.totalBar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.totalMember{
+    background-color: orange;
+    height: 150px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+
+.totalMember div{
+    align-items: space-around;
+    font-size: 20px;
+}
+
+.totalMember div span{
+    font-size: 30px;
+}
+
+.totalTier{
+    background-color: #888888;
+    height: 150px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    color: white;
+    padding: 5px 20px;
+}
+
+.totalTier div{
+    font-size: 20px;
+}
+
+.totalTier div span{
+    font-size:  25px;
+}
+
+#unit{
+    font-size: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+#tier{
+    text-align: center;
+    font-size: 25px;
+}
